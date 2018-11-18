@@ -1,0 +1,14 @@
+
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	implementation 'org.apache.poi:poi:3.17'
+	implementation 'org.apache.poi:poi-ooxml:3.17'
+    
+    testImplementation 'junit:junit:4.12'
+}
+
